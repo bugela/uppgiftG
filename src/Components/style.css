@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Bona Nova", serif;
+}
+
+body {
+    background-color: rgb(182, 183, 174);
+}
+.main{
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+}
+.heading h1{
+    color: whitesmoke;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+    margin: 1rem;
+}
+.heading h4{
+    color: whitesmoke;
+}
+.search-bar{
+    margin: 1rem 0;
+    width: 400px;
+    height: 40px;
+    border:  none;
+    outline: none;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+}
+.container{
+    width: 80%;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-gap: 2rem;
+}
+.card{
+    width: 180px;
+    border-radius: 1rem;
+    background-color: rgb(128, 104, 157);
+    padding: 5px;
+}
+.card h3{
+    color: white;
+    font-size: 18px;
+}
+img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+.indexContainer{
+    display: flex;
+    margin: 2.5rem 0;
+}
+.numBox{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 5px 0 5px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.content {
+    width: 60%;
+    text-align: center;
+}
+
+.content img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.recipe-details {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.inner-content {
+    text-align: center;
+}
+
+.ingredients, .instructions {
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
