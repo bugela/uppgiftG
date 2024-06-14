@@ -17,7 +17,7 @@ const RecipeInfo = () => {
                 .catch(error => console.error('Error fetching meal:', error));
         }
     }, [MealId]);
-
+/*this return i moved in to the Mealitem.jsx  */
     return (
         <>
             {item && (
